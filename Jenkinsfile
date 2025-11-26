@@ -9,7 +9,7 @@ pipeline {
 
     stage('buzz test') {
       steps {
-        sh 'echo test2'
+        bat 'echo test2'
       }
     }
 
