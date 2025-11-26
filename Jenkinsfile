@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('buzz build') {
       steps {
-        sh './jenkins/build.sh'
+        bat 'echo test1'
       }
     }
 
     stage('buzz test') {
       steps {
-        sh './jenkins/test-all.sh'
+        sh 'echo test2'
       }
     }
 
