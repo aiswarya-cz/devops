@@ -4,6 +4,8 @@ pipeline {
     stage('buzz buzz') {
       steps {
         echo 'bees buzz'
+        echo 'bees buzzing'
+        echo 'bees buzzing again'
       }
     }
 
